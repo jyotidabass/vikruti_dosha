@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:fontFamily="@font/statlich"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:layout_marginTop="30sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:background="#000"
+        android:layout_margin="40px"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_login_id"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_login_email"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:gravity="center_horizontal"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btn_login"
+        android:layout_margin="10sp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DeveloperInfoActivity"
+    tools:showIn="@layout/activity_developer_info">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/dev_photo"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Ayush Moudgil"
+            android:id="@+id/dev_name"
+            android:fontFamily="@font/nunito"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dev_tagline"
+            android:text="Android Developer, C/C++ Developer"
+            android:fontFamily="@font/nunito"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="www.dozy.in"
+            android:textAllCaps="false"
+            android:background="#5b7aae"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/btn_website"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dev_intro5"/>
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
